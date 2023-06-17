@@ -23,3 +23,4 @@ test_data = datasets.FashionMNIST(
     download=True,
     transform=ToTensor()
 )
+pass
