@@ -1,3 +1,5 @@
+# Kod oparty o ćwiczenie "7.1 Stepping through nn.Conv2d()" z ebook "Zero to Mastery Learn PyTorch for Deep Learning"
+
 import torch
 from torch import nn
 import matplotlib as plt
@@ -8,6 +10,9 @@ from torch.utils.data import DataLoader
 import timeit
 
 torch.manual_seed ( 42 )
+
+print ( f"### ### 7.1 Stepping through nn.Conv2d()" )
+print ( f"### ### from Zero to Mastery Learn PyTorch for Deep Learning" )
 
 ### Pytorch section
 print ( "\n### Pytorch section" )
